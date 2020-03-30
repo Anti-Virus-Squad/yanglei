@@ -40,7 +40,7 @@ int main()
 	string str;
 	string first_str = "ffmpeg -i ";
 	string videoname(video);
-	string last = " -r 10 -ss 00:00:00 -t 00:00:10 C:\\testFolder\\%03d.png";
+	string last = " -r 10 -ss 00:00:00 -t 00:00:10 E:\\testFolder\\%03d.png";
 	str = first_str + videoname + last;
 	sprintf(cmd, "%s", str.c_str());
 	system(cmd);
