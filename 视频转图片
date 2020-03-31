@@ -33,7 +33,7 @@ int main()
 	string folderPath = "E:\\testFolder";
 
 	string command;
-	command = "mkdir -p " + folderPath;
+	command = "mkdir " + folderPath;
 	system(command.c_str());
 
 	char cmd[300] = { '\0' };
